@@ -4,7 +4,7 @@
     <AssemblyName>Digitalroot.Valheim.Common.Names</AssemblyName>
     <TargetFrameworks>netstandard2.1;net462;net472;net48</TargetFrameworks>
     <PackageId>Digitalroot.Valheim.Common.Names</PackageId>
-    <RootNamespace>Digitalroot.Valheim.Common</RootNamespace>
+    <RootNamespace>Digitalroot.Valheim.Common.Names</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
@@ -35,6 +35,13 @@
 
   <ItemGroup>
     <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\ico\ValheimRcon_black.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 

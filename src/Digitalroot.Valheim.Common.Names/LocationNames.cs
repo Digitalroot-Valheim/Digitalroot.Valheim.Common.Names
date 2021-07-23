@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Digitalroot.Valheim.Common
+namespace Digitalroot.Valheim.Common.Names
 {
   public static class LocationNames
   {
