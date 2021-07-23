@@ -28,8 +28,8 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: dotnet build --configuration Release src/Digitalroot.Valheim.Names/Digitalroot.Valheim.Names.csproj
+      - run: dotnet build --configuration Release src/Digitalroot.Valheim.Common.Names/Digitalroot.Valheim.Common.Names.csproj
       - name: Create the package
-        run: dotnet pack --configuration Release src/Digitalroot.Valheim.Names/Digitalroot.Valheim.Names.csproj
+        run: dotnet pack --configuration Release src/Digitalroot.Valheim.Common.Names/Digitalroot.Valheim.Common.Names.csproj
       - name: Publish the package to GPR
-        run: dotnet nuget push src/Digitalroot.Valheim.Names/bin/Release/*.nupkg --skip-duplicate
+        run: dotnet nuget push src/Digitalroot.Valheim.Common.Names/bin/Release/*.nupkg --skip-duplicate
