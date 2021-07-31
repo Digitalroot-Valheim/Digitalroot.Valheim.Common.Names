@@ -13,8 +13,8 @@ jobs:
       packages: write
       contents: read
     env:
-      SLN_FILE_NAME: Digitalroot.Valheim.Names.sln
-      PROJ: Digitalroot.Valheim.Names  
+      SLN_FILE_NAME: Digitalroot.Valheim.Common.Names.sln
+      PROJ: Digitalroot.Valheim.Common.Names  
       NUGET_AUTH_TOKEN: ${{secrets.NUGET_PAT}}
       DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
       DOTNET_CLI_TELEMETRY_OPTOUT: true
