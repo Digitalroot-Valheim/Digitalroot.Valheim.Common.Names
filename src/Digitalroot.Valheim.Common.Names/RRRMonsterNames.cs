@@ -82,5 +82,8 @@ namespace Digitalroot.Valheim.Common.Names
     public static readonly string mountainbandit1 = $"{PrefixNpc}{nameof(mountainbandit1)}";
 
     public static readonly string TrollTosser = $"{PrefixBase}{nameof(TrollTosser)}";
+    public static readonly string GDThornweaver = $"{PrefixBase}{nameof(GDThornweaver)}";
+    public static readonly string GhostVengeful = $"{PrefixBase}{nameof(GhostVengeful)}";
+    public static readonly string Grig = $"{PrefixBase}{nameof(Grig)}";
   }
 }

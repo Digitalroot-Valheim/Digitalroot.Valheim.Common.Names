@@ -40,5 +40,9 @@ namespace Digitalroot.Valheim.Common.Names
     public static readonly string Wolf = nameof(Wolf);
     public static readonly string WolfCub = "Wolf_cub";
     public static readonly string Wraith = nameof(Wraith);
+    public static readonly string Bear = nameof(Bear);
+    public static readonly string BearCub = "Bear_cub";
+
+
   }
 }
