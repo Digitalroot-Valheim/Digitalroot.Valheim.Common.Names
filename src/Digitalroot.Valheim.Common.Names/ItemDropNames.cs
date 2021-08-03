@@ -2,7 +2,7 @@
 
 namespace Digitalroot.Valheim.Common.Names
 {
-  public static class ItemDropNames
+  public static partial class ItemDropNames
   {
     public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(ItemDropNames));
     public static string Amber = nameof(Amber);

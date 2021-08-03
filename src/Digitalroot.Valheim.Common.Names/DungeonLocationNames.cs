@@ -2,7 +2,7 @@
 
 namespace Digitalroot.Valheim.Common.Names
 {
-  public static class DungeonLocationNames
+  public static partial class DungeonLocationNames
   {
     public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(DungeonLocationNames));
     public static readonly string Crypt2 = nameof(Crypt2);

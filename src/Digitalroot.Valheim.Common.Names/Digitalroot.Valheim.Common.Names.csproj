@@ -20,11 +20,11 @@
     <Company>Digitalroot Technologies</Company>
     <Product>Digitalroot Valheim Names</Product>
     <Description>Names for Valheim</Description>
-    <PackageReleaseNotes>Update Refs</PackageReleaseNotes>
+    <PackageReleaseNotes>Added more names</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageVersion>1.0.2</PackageVersion>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
+    <PackageVersion>1.0.3</PackageVersion>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.0.3</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">

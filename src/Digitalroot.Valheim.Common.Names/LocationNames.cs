@@ -2,7 +2,7 @@
 
 namespace Digitalroot.Valheim.Common.Names
 {
-  public static class LocationNames
+  public static partial class LocationNames
   {
     public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(LocationNames));
     public static readonly string AbandonedLogCabin02 = nameof(AbandonedLogCabin02);
