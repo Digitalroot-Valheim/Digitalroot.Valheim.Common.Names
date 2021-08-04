@@ -34,7 +34,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.4" />
+    <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
