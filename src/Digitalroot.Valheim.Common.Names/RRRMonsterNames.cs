@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using JetBrains.Annotations;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
 namespace Digitalroot.Valheim.Common.Names
@@ -9,7 +11,7 @@ namespace Digitalroot.Valheim.Common.Names
     private const string PrefixM = "RRRM_";
     private const string PrefixBase = "RRR_";
     private const string PrefixNpc = "RRRN_";
-    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
+    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(RRRMonsterNames));
     public static readonly string AngrySpirit = $"{PrefixM}{nameof(AngrySpirit)}";
     public static readonly string AngryFrozenCorpse = $"{PrefixM}{nameof(AngryFrozenCorpse)}";
     public static readonly string AshHatchling = $"{PrefixM}{nameof(AshHatchling)}";
@@ -85,5 +87,103 @@ namespace Digitalroot.Valheim.Common.Names
     public static readonly string GDThornweaver = $"{PrefixBase}{nameof(GDThornweaver)}";
     public static readonly string GhostVengeful = $"{PrefixBase}{nameof(GhostVengeful)}";
     public static readonly string Grig = $"{PrefixBase}{nameof(Grig)}";
+
+
+    [UsedImplicitly]
+    public static IEnumerable<string> AllNamesByBiome(Heightmap.Biome biome)
+    {
+      switch (biome)
+      {
+        case Heightmap.Biome.Meadows:
+          yield return EikthyrBoar;
+          yield return wildbandit1;
+          yield return wildbandit2;
+          yield return wildbandit3;
+          yield return EikthyrWolf;
+          yield return EikthyrNeckT3R;
+          break;
+
+        case Heightmap.Biome.BlackForest:
+          yield return ForestSpider;
+          yield return BlackSpider;
+          yield return GhostWarrior;
+          yield return SkeletonWarrior;
+          yield return SkeletonWarriorIce;
+          yield return SkeletonWarriorFire;
+          yield return TanSpider;
+          yield return TrollT1R;
+          yield return TrollT1M;
+          yield return GDTosser;
+          yield return TrollTosser;
+          yield return GDThornweaver;
+          break;
+
+        case Heightmap.Biome.Swamp:
+          yield return GreenSpider;
+          yield return GhostVengeful;
+          break;
+
+        case Heightmap.Biome.Mountain:
+          yield return StormWolf;
+          yield return IceGolem;
+          yield return mountainbandit1;
+          yield return mountainbandit2;
+          yield return SilverGolem;
+          break;
+
+        case Heightmap.Biome.Plains:
+          yield return BrownSpider;
+          yield return plainsbandit1;
+          yield return plainsbandit2;
+          break;
+
+        case Heightmap.Biome.Ocean:
+          yield return DrownedSoul;
+          yield return StormHatchling;
+          yield return SmallPolarSerpent;
+          break;
+
+        case Heightmap.Biome.Mistlands:
+          yield return DarkProtector;
+          yield return DarkSpider;
+          yield return PoisonDarkSpider;
+          yield return BlackSpider;
+          yield return TreeSpider;
+          yield return Svartalfr;
+          yield return SvartalfrArcher;
+          yield return SvartalfrBrigade;
+          yield return SvartalfrHeavy;
+          yield return SvartalfrMage;
+          yield return Grig;
+          yield return DarkMosquito;
+          break;
+
+        case Heightmap.Biome.AshLands:
+          yield return AshHatchling;
+          yield return AshMosquito;
+          yield return AshNeck;
+          yield return SmallAshNeck;
+          yield return ElderSurtling;
+          yield return SwollenBody;
+          yield return SkeletonWarriorFire;
+          yield return BurnedBones;
+          yield return FireGolem;
+          yield return BlazingBones;
+          yield return SkeletonT4MageFire;
+          break;
+
+        case Heightmap.Biome.DeepNorth:
+          yield return AngryFrozenCorpse;
+          yield return FrozenCorpse;
+          yield return PolarFenring;
+          yield return PolarLox;
+          yield return SmallPolarLox;
+          yield return FrigidSpider;
+          yield return FrostSpider;
+          yield return SkeletonWarriorIce;
+          yield return SkeletonT4MageIce;
+          break;
+      }
+    }
   }
 }

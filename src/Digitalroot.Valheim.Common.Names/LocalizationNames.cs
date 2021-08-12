@@ -4,7 +4,7 @@ namespace Digitalroot.Valheim.Common.Names
 {
   public static partial class LocalizationNames
   {
-    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
+    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(LocalizationNames));
     public static readonly string English = nameof(English);
     public static readonly string Abenaki = nameof(Abenaki);
     public static readonly string Bulgarian = nameof(Bulgarian);

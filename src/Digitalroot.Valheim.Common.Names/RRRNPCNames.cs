@@ -8,7 +8,7 @@ namespace Digitalroot.Valheim.Common.Names
   {
     private const string PrefixBase = "RRR_";
     private const string PrefixNpc = "RRRN_";
-    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
+    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(RRRNPCNames));
 
     public static readonly string NPC = $"{PrefixBase}{nameof(NPC)}";
 

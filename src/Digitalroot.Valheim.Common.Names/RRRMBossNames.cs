@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using JetBrains.Annotations;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
 namespace Digitalroot.Valheim.Common.Names
@@ -7,7 +8,7 @@ namespace Digitalroot.Valheim.Common.Names
   public static partial class RRRMBossNames
   {
     private const string Prefix = "RRRM_";
-    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
+    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(RRRMBossNames));
     public static readonly string MotherDarkSpider = $"{Prefix}{nameof(MotherDarkSpider)}";
     public static readonly string Jotunn = $"{Prefix}{nameof(Jotunn)}";
     public static readonly string DevourerFenring = $"{Prefix}{nameof(DevourerFenring)}";
@@ -33,5 +34,62 @@ namespace Digitalroot.Valheim.Common.Names
     public static readonly string SkeletonT3Captain = nameof(SkeletonT3Captain);
     public static readonly string SkeletonT4Captain = nameof(SkeletonT4Captain);
     public static readonly string WraithT3 = nameof(WraithT3);
+
+    [UsedImplicitly]
+    public static IEnumerable<string> AllNamesByBiome(Heightmap.Biome biome)
+    {
+      switch (biome)
+      {
+        case Heightmap.Biome.Meadows:
+          yield return wildbandit3;
+          yield return EikthyrLox;
+          yield return EikthyrNeckT3M;
+          yield return EikthyrNeckT4;
+          break;
+
+        case Heightmap.Biome.BlackForest:
+          yield return wildbanditgiant;
+          yield return wildbandit3;
+          yield return TrollT2Elite;
+          yield return TrollT3Elite;
+          yield return TrollT4Elite;
+          yield return GDElderBrute;
+          yield return GDBurningTorch;
+          break;
+
+        case Heightmap.Biome.Swamp:
+          yield return UndeadHrungnir;
+          yield return SkeletonT3Captain;
+          yield return SkeletonT4Captain;
+          yield return WraithT3;
+          break;
+
+        case Heightmap.Biome.Mountain:
+          yield return mountainbandit3;
+          yield return IceGolem;
+          break;
+
+        case Heightmap.Biome.Plains:
+          yield return plainsbandit3;
+          break;
+
+        case Heightmap.Biome.Mistlands:
+          yield return MotherDarkSpider;
+          yield return SvartalfrQueen;
+          break;
+
+        case Heightmap.Biome.AshLands:
+          yield return DamnedOne;
+          yield return BlazingDamnedOne;
+          break;
+
+        case Heightmap.Biome.DeepNorth:
+          yield return Jotunn;
+          yield return DevourerFenring;
+          yield return ForgottenOne;
+          yield return StormFenring;
+          break;
+      }
+    }
   }
 }
