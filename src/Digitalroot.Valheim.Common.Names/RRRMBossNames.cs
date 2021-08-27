@@ -58,7 +58,6 @@ namespace Digitalroot.Valheim.Common.Names
 
         case Heightmap.Biome.Swamp:
           yield return UndeadHrungnir;
-          yield return SkeletonT3Captain;
           yield return SkeletonT4Captain;
           yield return WraithT3;
           break;
