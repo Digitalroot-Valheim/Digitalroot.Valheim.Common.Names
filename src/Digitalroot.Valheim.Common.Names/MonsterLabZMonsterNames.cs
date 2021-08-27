@@ -46,7 +46,6 @@ namespace Digitalroot.Valheim.Common.Names
           yield return SkeletonWarriorIce;
           yield return SkeletonWarriorFire;
           yield return TanSpider;
-          yield return BlackSpider;
           yield return ForestSpider;
           yield return GreydwarfPurple;
           yield return GreydwarfPurpleShroom;
@@ -73,7 +72,6 @@ namespace Digitalroot.Valheim.Common.Names
           break;
 
         case Heightmap.Biome.Mistlands:
-          yield return BlackSpider;
           yield return TreeSpider;
           break;
 
