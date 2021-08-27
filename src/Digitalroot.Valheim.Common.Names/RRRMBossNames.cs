@@ -51,7 +51,6 @@ namespace Digitalroot.Valheim.Common.Names
           yield return wildbandit3;
           yield return TrollT2Elite;
           yield return TrollT3Elite;
-          yield return TrollT4Elite;
           yield return GDElderBrute;
           yield return GDBurningTorch;
           break;
