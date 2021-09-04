@@ -105,7 +105,6 @@ namespace Digitalroot.Valheim.Common.Names
 
         case Heightmap.Biome.BlackForest:
           yield return ForestSpider;
-          yield return BlackSpider;
           yield return GhostWarrior;
           yield return SkeletonWarrior;
           yield return SkeletonWarriorIce;
@@ -147,7 +146,6 @@ namespace Digitalroot.Valheim.Common.Names
           yield return DarkProtector;
           yield return DarkSpider;
           yield return PoisonDarkSpider;
-          yield return BlackSpider;
           yield return TreeSpider;
           yield return Svartalfr;
           yield return SvartalfrArcher;
