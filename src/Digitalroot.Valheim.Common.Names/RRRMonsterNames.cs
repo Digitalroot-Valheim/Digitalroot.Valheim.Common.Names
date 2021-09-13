@@ -97,7 +97,7 @@ namespace Digitalroot.Valheim.Common.Names
         case Heightmap.Biome.Meadows:
           yield return EikthyrBoar;
           yield return wildbandit1;
-          yield return wildbandit2;
+          // yield return wildbandit2;
           yield return wildbandit3;
           yield return EikthyrWolf;
           yield return EikthyrNeckT3R;
