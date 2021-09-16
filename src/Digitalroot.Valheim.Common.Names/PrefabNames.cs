@@ -14,6 +14,7 @@ namespace Digitalroot.Valheim.Common.Names
     public static readonly string GoblinShaman = nameof(GoblinShaman);
     public static readonly string Munin = nameof(Munin);
     public static readonly string Odin = "odin";
+    public static readonly string PickableTar = "Pickable_Tar";
     public static readonly string Troll = nameof(Troll);
   }
 }

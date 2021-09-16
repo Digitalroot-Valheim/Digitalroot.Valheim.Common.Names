@@ -5,6 +5,7 @@ namespace Digitalroot.Valheim.Common.Names
   public static partial class ItemDropNames
   {
     public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(ItemDropNames));
+    public static string Acorn = nameof(Acorn);
     public static string Amber = nameof(Amber);
     public static string AmberPearl = nameof(AmberPearl);
     public static string AncientSeed = nameof(AncientSeed);
@@ -45,10 +46,13 @@ namespace Digitalroot.Valheim.Common.Names
     public static string BarleyWine = nameof(BarleyWine);
     public static string BarleyWineBase = nameof(BarleyWineBase);
     public static string Battleaxe = nameof(Battleaxe);
+    public static string BattleaxeCrystal = nameof(BattleaxeCrystal);
     public static string BeechSeeds = nameof(BeechSeeds);
     public static string BeltStrength = nameof(BeltStrength);
+    public static string BirchSeeds = nameof(BirchSeeds);
     public static string BlackMetal = nameof(BlackMetal);
     public static string BlackMetalScrap = nameof(BlackMetalScrap);
+    public static string BlackSoup = nameof(BlackSoup);
     public static string Bloodbag = nameof(Bloodbag);
     public static string BloodPudding = nameof(BloodPudding);
     public static string Blueberries = nameof(Blueberries);
@@ -77,7 +81,9 @@ namespace Digitalroot.Valheim.Common.Names
     public static string Club = nameof(Club);
     public static string Coal = nameof(Coal);
     public static string Coins = nameof(Coins);
+    public static string CookedDeerMeat = nameof(CookedDeerMeat);
     public static string CookedLoxMeat = nameof(CookedLoxMeat);
+    public static string CookedWolfMeat = nameof(CookedWolfMeat);
     public static string CookedMeat = nameof(CookedMeat);
     public static string Copper = nameof(Copper);
     public static string CopperOre = nameof(CopperOre);
@@ -86,10 +92,13 @@ namespace Digitalroot.Valheim.Common.Names
     public static string Cultivator = nameof(Cultivator);
     public static string Dandelion = nameof(Dandelion);
     public static string DeerHide = nameof(DeerHide);
+    public static string DeerMeat = nameof(DeerMeat);
+    public static string DeerStew = nameof(DeerStew);
     public static string DragonEgg = nameof(DragonEgg);
     public static string DragonTear = nameof(DragonTear);
     public static string ElderBark = nameof(ElderBark);
     public static string Entrails = nameof(Entrails);
+    public static string Eyescream = nameof(Eyescream);
     public static string Feathers = nameof(Feathers);
     public static string FineWood = nameof(FineWood);
     public static string FirCone = nameof(FirCone);
@@ -127,6 +136,7 @@ namespace Digitalroot.Valheim.Common.Names
     public static string KnifeChitin = nameof(KnifeChitin);
     public static string KnifeCopper = nameof(KnifeCopper);
     public static string KnifeFlint = nameof(KnifeFlint);
+    public static string KnifeSilver = nameof(KnifeSilver);
     public static string LeatherScraps = nameof(LeatherScraps);
     public static string LinenThread = nameof(LinenThread);
     public static string LoxMeat = nameof(LoxMeat);
@@ -150,6 +160,7 @@ namespace Digitalroot.Valheim.Common.Names
     public static string MeadStaminaMedium = nameof(MeadStaminaMedium);
     public static string MeadStaminaMinor = nameof(MeadStaminaMinor);
     public static string MeadTasty = nameof(MeadTasty);
+    public static string MinceMeatSauce = nameof(MinceMeatSauce);
     public static string Mushroom = nameof(Mushroom);
     public static string MushroomBlue = nameof(MushroomBlue);
     public static string MushroomYellow = nameof(MushroomYellow);
@@ -157,12 +168,15 @@ namespace Digitalroot.Valheim.Common.Names
     public static string NeckTailGrilled = nameof(NeckTailGrilled);
     public static string Needle = nameof(Needle);
     public static string Obsidian = nameof(Obsidian);
+    public static string OnionSeeds = nameof(OnionSeeds);
+    public static string OnionSoup = nameof(OnionSoup);
     public static string Ooze = nameof(Ooze);
     public static string PickaxeAntler = nameof(PickaxeAntler);
     public static string PickaxeBronze = nameof(PickaxeBronze);
     public static string PickaxeIron = nameof(PickaxeIron);
     public static string PickaxeStone = nameof(PickaxeStone);
     public static string PineCone = nameof(PineCone);
+    public static string PukeBerries = nameof(PukeBerries);
     public static string QueenBee = nameof(QueenBee);
     public static string QueensJam = nameof(QueensJam);
     public static string Raspberry = nameof(Raspberry);
@@ -179,7 +193,9 @@ namespace Digitalroot.Valheim.Common.Names
     public static string ShieldBanded = nameof(ShieldBanded);
     public static string ShieldBlackmetal = nameof(ShieldBlackmetal);
     public static string ShieldBlackmetalTower = nameof(ShieldBlackmetalTower);
+    public static string ShieldBone = nameof(ShieldBone);
     public static string ShieldBronzeBuckler = nameof(ShieldBronzeBuckler);
+    public static string ShieldIronBuckler = nameof(ShieldIronBuckler);
     public static string ShieldIronSquare = nameof(ShieldIronSquare);
     public static string ShieldIronTower = nameof(ShieldIronTower);
     public static string ShieldKnight = nameof(ShieldKnight);
@@ -187,6 +203,7 @@ namespace Digitalroot.Valheim.Common.Names
     public static string ShieldSilver = nameof(ShieldSilver);
     public static string ShieldWood = nameof(ShieldWood);
     public static string ShieldWoodTower = nameof(ShieldWoodTower);
+    public static string ShocklateSmoothie = nameof(ShocklateSmoothie);
     public static string Silver = nameof(Silver);
     public static string SilverNecklace = nameof(SilverNecklace);
     public static string SilverOre = nameof(SilverOre);
@@ -208,7 +225,9 @@ namespace Digitalroot.Valheim.Common.Names
     public static string SwordSilver = nameof(SwordSilver);
     public static string Tankard = nameof(Tankard);
     public static string TankardOdin = nameof(TankardOdin);
+    public static string Tar = nameof(Tar);
     public static string Thistle = nameof(Thistle);
+    public static string Thunderstone = nameof(Thunderstone);
     public static string Tin = nameof(Tin);
     public static string TinOre = nameof(TinOre);
     public static string Torch = nameof(Torch);
@@ -233,6 +252,7 @@ namespace Digitalroot.Valheim.Common.Names
     public static string TrophyGreydwarf = nameof(TrophyGreydwarf);
     public static string TrophyGreydwarfBrute = nameof(TrophyGreydwarfBrute);
     public static string TrophyGreydwarfShaman = nameof(TrophyGreydwarfShaman);
+    public static string TrophyGrowth = nameof(TrophyGrowth);
     public static string TrophyHatchling = nameof(TrophyHatchling);
     public static string TrophyLeech = nameof(TrophyLeech);
     public static string TrophyLox = nameof(TrophyLox);
@@ -252,6 +272,9 @@ namespace Digitalroot.Valheim.Common.Names
     public static string Wishbone = nameof(Wishbone);
     public static string WitheredBone = nameof(WitheredBone);
     public static string WolfFang = nameof(WolfFang);
+    public static string WolfJerky = nameof(WolfJerky);
+    public static string WolfMeat = nameof(WolfMeat);
+    public static string WolfMeatSkewer = nameof(WolfMeatSkewer);
     public static string WolfPelt = nameof(WolfPelt);
     public static string Wood = nameof(Wood);
     public static string YagluthDrop = nameof(YagluthDrop);
