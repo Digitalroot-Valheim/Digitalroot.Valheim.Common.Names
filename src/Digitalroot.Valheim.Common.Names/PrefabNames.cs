@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Digitalroot.Valheim.Common.Names
 {
-    public partial static class PrefabNames
+    public static partial class PrefabNames
     {
         public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
         public static readonly string EventzoneBossBase = "_eventzone_boss_base";
