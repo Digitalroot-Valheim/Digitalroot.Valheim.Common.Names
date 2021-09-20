@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 namespace Digitalroot.Valheim.Common.Names
 {
   [SuppressMessage("ReSharper", "InconsistentNaming")]
-  public static partial class RRRMonsterNamesOld
+  public static partial class SupplementalRaidsMonsterNames
   {
     private const string PrefixM = "RRRM_";
     private const string PrefixBase = "RRR_";
@@ -89,9 +89,9 @@ namespace Digitalroot.Valheim.Common.Names
       {
         case Heightmap.Biome.Meadows:
           yield return EikthyrBoar;
-          yield return wildbandit1;
-          // yield return wildbandit2;
-          yield return wildbandit3;
+          // yield return wildbandit1;
+          // yield return wildbandit2; // Broken?
+          // yield return wildbandit3;
           yield return EikthyrWolf;
           yield return EikthyrNeckT3R;
           break;
@@ -115,15 +115,15 @@ namespace Digitalroot.Valheim.Common.Names
         case Heightmap.Biome.Mountain:
           yield return StormWolf;
           yield return IceGolem;
-          yield return mountainbandit1;
-          yield return mountainbandit2;
+          // yield return mountainbandit1;
+          // yield return mountainbandit2;
           yield return SilverGolem;
           break;
 
         case Heightmap.Biome.Plains:
           yield return BrownSpider;
-          yield return plainsbandit1;
-          yield return plainsbandit2;
+          // yield return plainsbandit1;
+          // yield return plainsbandit2;
           break;
 
         case Heightmap.Biome.Ocean:
@@ -137,11 +137,11 @@ namespace Digitalroot.Valheim.Common.Names
           yield return DarkSpider;
           yield return PoisonDarkSpider;
           yield return TreeSpider;
-          yield return Svartalfr;
-          yield return SvartalfrArcher;
-          yield return SvartalfrBrigade;
-          yield return SvartalfrHeavy;
-          yield return SvartalfrMage;
+          // yield return Svartalfr;
+          // yield return SvartalfrArcher;
+          // yield return SvartalfrBrigade;
+          // yield return SvartalfrHeavy;
+          // yield return SvartalfrMage;
           yield return DarkMosquito;
           break;
 

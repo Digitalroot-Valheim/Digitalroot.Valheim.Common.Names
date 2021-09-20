@@ -22,9 +22,9 @@
     <Description>Names for Valheim</Description>
     <PackageReleaseNotes>Added more names</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageVersion>1.3.2</PackageVersion>
-    <AssemblyVersion>1.3.2</AssemblyVersion>
-    <FileVersion>1.3.2</FileVersion>
+    <PackageVersion>1.3.3</PackageVersion>
+    <AssemblyVersion>1.3.3</AssemblyVersion>
+    <FileVersion>1.3.3</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
