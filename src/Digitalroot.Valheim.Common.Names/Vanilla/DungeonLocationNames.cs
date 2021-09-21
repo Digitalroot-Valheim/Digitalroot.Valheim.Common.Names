@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Digitalroot.Valheim.Common.Names
+namespace Digitalroot.Valheim.Common.Names.Vanilla
 {
   public static partial class DungeonLocationNames
   {

@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 
-namespace Digitalroot.Valheim.Common.Names
+namespace Digitalroot.Valheim.Common.Names.Vanilla
 {
-    public static partial class PrefabNames
+  // ReSharper disable once PartialTypeWithSinglePart
+  public static partial class PrefabNames
     {
         public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
         public static readonly string EventzoneBossBase = "_eventzone_boss_base";

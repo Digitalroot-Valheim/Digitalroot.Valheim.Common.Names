@@ -1,16 +1,19 @@
-﻿using System;
+﻿using JetBrains.Annotations;
 using System.Collections.Generic;
 
-namespace Digitalroot.Valheim.Common.Names
+// ReSharper disable MemberCanBePrivate.Global
+
+namespace Digitalroot.Valheim.Common.Names.Vanilla
 {
+  // ReSharper disable once PartialTypeWithSinglePart
   public static partial class BossNames
   {
-    public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(BossNames));
-    public static readonly string Eikthyr = nameof(Eikthyr);
-    public static readonly string TheElder = "gd_king";
-    public static readonly string Bonemass = nameof(Bonemass);
-    public static readonly string Moder = "Dragon";
-    public static readonly string Yagluth = "GoblinKing";
+    [UsedImplicitly] public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(BossNames));
+    public static readonly string Eikthyr = PrefabNames.Eikthyr;
+    public static readonly string TheElder = PrefabNames.GdKing;
+    public static readonly string Bonemass = PrefabNames.Bonemass;
+    public static readonly string Moder = PrefabNames.Dragon;
+    public static readonly string Yagluth = PrefabNames.GoblinKing;
 
     public static IEnumerable<string> AllNamesByBiome(Heightmap.Biome biome)
     {
