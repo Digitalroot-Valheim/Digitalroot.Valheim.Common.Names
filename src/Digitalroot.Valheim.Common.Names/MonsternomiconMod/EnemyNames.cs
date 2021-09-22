@@ -52,6 +52,7 @@ namespace Digitalroot.Valheim.Common.Names.MonsternomiconMod
         case Heightmap.Biome.Ocean:
           yield return DrownedSoul;
           yield return StormHatchling;
+          yield return SmallPolarSerpent;
           break;
 
         case Heightmap.Biome.Mistlands:
@@ -88,7 +89,6 @@ namespace Digitalroot.Valheim.Common.Names.MonsternomiconMod
           yield return PolarLox;
           yield return SilverGolem;
           yield return SmallPolarLox;
-          yield return SmallPolarSerpent;
           break;
       }
     }
