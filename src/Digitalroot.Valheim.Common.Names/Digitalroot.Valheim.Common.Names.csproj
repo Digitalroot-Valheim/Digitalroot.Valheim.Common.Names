@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <AssemblyName>Digitalroot.Valheim.Common.Names</AssemblyName>
-    <TargetFrameworks>net462;net472;net48</TargetFrameworks>
+    <TargetFrameworks>net462</TargetFrameworks>
     <LangVersion>9</LangVersion>
     <PackageId>Digitalroot.Valheim.Common.Names</PackageId>
     <RootNamespace>Digitalroot.Valheim.Common.Names</RootNamespace>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
-    <Copyright>Copyright © Digitalroot Technologies 2021</Copyright>
+    <Copyright>Copyright © Digitalroot Technologies 2021 - 2022</Copyright>
     <PackageProjectUrl>https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Names</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Names</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -22,19 +22,22 @@
     <Description>Names for Valheim</Description>
     <PackageReleaseNotes>Added more names</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageVersion>1.4.1</PackageVersion>
-    <AssemblyVersion>1.4.1</AssemblyVersion>
-    <FileVersion>1.4.1</FileVersion>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <RestoreAdditionalProjectSources>
+	    https://nuget.bepinex.dev/v3/index.json;
+	    https://digitalroot-valheim-nuget.s3.us-west-2.amazonaws.com/index.json
+    </RestoreAdditionalProjectSources>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.1|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.6" />
+    <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.13" />
   </ItemGroup>
 
   <ItemGroup>
