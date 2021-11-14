@@ -11,6 +11,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E64D67E6-C2B6-471C-990D-2E9A91427B64}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\nuget.release.yml = ..\.github\workflows\nuget.release.yml
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalroot.Valheim.Common.Names", "Digitalroot.Valheim.Common.Names\Digitalroot.Valheim.Common.Names.csproj", "{2B220AE5-0C1D-4E7B-9DCC-ABA9C1E6EC5E}"
 EndProject
