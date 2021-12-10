@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+// ReSharper disable UnusedMember.Global
 
 namespace Digitalroot.Valheim.Common.Names.Vanilla
 {
+  // ReSharper disable once PartialTypeWithSinglePart
   public static partial class LocalizationNames
   {
     public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(LocalizationNames));

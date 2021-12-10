@@ -2,8 +2,7 @@ using System.Collections.Generic;
 
 namespace Digitalroot.Valheim.Common.Names.Vanilla
 {
-  // ReSharper disable once PartialTypeWithSinglePart
-  public static partial class PrefabNames
+    public static partial class PrefabNames
     {
         public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(PrefabNames));
         public static readonly string EventzoneBossBase = "_eventzone_boss_base";
@@ -12,6 +11,11 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string AbandonedLogCabin02 = nameof(AbandonedLogCabin02);
         public static readonly string AbandonedLogCabin03 = nameof(AbandonedLogCabin03);
         public static readonly string AbandonedLogCabin04 = nameof(AbandonedLogCabin04);
+        public static readonly string Abomination = nameof(Abomination);
+        public static readonly string AbominationAttack1 = "Abomination_attack1";
+        public static readonly string AbominationAttack2 = "Abomination_attack2";
+        public static readonly string AbominationAttack3 = "Abomination_attack3";
+        public static readonly string AbominationRagdoll = "Abomination_ragdoll";
         public static readonly string Acorn = nameof(Acorn);
         public static readonly string Amber = nameof(Amber);
         public static readonly string AmberPearl = nameof(AmberPearl);
@@ -28,6 +32,8 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string ArmorPaddedGreaves = nameof(ArmorPaddedGreaves);
         public static readonly string ArmorRagsChest = nameof(ArmorRagsChest);
         public static readonly string ArmorRagsLegs = nameof(ArmorRagsLegs);
+        public static readonly string ArmorRootChest = nameof(ArmorRootChest);
+        public static readonly string ArmorRootLegs = nameof(ArmorRootLegs);
         public static readonly string ArmorTrollLeatherChest = nameof(ArmorTrollLeatherChest);
         public static readonly string ArmorTrollLeatherLegs = nameof(ArmorTrollLeatherLegs);
         public static readonly string ArmorWolfChest = nameof(ArmorWolfChest);
@@ -198,6 +204,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string DeerHide = nameof(DeerHide);
         public static readonly string DeerMeat = nameof(DeerMeat);
         public static readonly string DeerStew = nameof(DeerStew);
+        public static readonly string DevHouse1 = nameof(DevHouse1);
         public static readonly string DgCave = "DG_Cave";
         public static readonly string DgForestCrypt = "DG_ForestCrypt";
         public static readonly string DgGoblinCamp = "DG_GoblinCamp";
@@ -285,6 +292,17 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string ForgeExt5 = "forge_ext5";
         public static readonly string ForgeExt6 = "forge_ext6";
         public static readonly string FreezeGland = nameof(FreezeGland);
+        public static readonly string FxAbominationArise = "fx_Abomination_arise";
+        public static readonly string FxAbominationAriseEnd = "fx_Abomination_arise_end";
+        public static readonly string FxAbominationAttackHit = "fx_Abomination_attack_hit";
+        public static readonly string FxAbominationAttack1 = "fx_Abomination_attack1";
+        public static readonly string FxAbominationAttack1Start = "fx_Abomination_attack1_start";
+        public static readonly string FxAbominationAttack1Trailon = "fx_Abomination_attack1_trailon";
+        public static readonly string FxAbominationAttack2 = "fx_Abomination_attack2";
+        public static readonly string FxAbominationAttack2Lift = "fx_Abomination_attack2_lift";
+        public static readonly string FxAbominationAttack2Start = "fx_Abomination_attack2_start";
+        public static readonly string FxAbominationAttack3 = "fx_Abomination_attack3";
+        public static readonly string FxAbominationAttack3Start = "fx_Abomination_attack3_start";
         public static readonly string FxBackstab = "fx_backstab";
         public static readonly string FxBlobtarTarballHit = "fx_blobtar_tarball_hit";
         public static readonly string FxBoarPet = "fx_boar_pet";
@@ -439,6 +457,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string HelmetLeather = nameof(HelmetLeather);
         public static readonly string HelmetOdin = nameof(HelmetOdin);
         public static readonly string HelmetPadded = nameof(HelmetPadded);
+        public static readonly string HelmetRoot = nameof(HelmetRoot);
         public static readonly string HelmetTrollLeather = nameof(HelmetTrollLeather);
         public static readonly string HelmetYule = nameof(HelmetYule);
         public static readonly string Highstone = "highstone";
@@ -718,6 +737,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string Rockformation1 = "rockformation1";
         public static readonly string RockThumb = nameof(RockThumb);
         public static readonly string RockThumbFrac = "RockThumb_frac";
+        public static readonly string Root = nameof(Root);
         public static readonly string Root07 = "root07";
         public static readonly string Root08 = "root08";
         public static readonly string Root11 = "root11";
@@ -754,6 +774,9 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string SerpentMeatCooked = nameof(SerpentMeatCooked);
         public static readonly string SerpentScale = nameof(SerpentScale);
         public static readonly string SerpentStew = nameof(SerpentStew);
+        public static readonly string SfxAbominationAttack = "sfx_Abomination_attack";
+        public static readonly string SfxAbominationAttack2SlamWhoosh = "sfx_Abomination_Attack2_slam_whoosh";
+        public static readonly string SfxAbominationSwing = "sfx_Abomination_swing";
         public static readonly string SfxArrowHit = "sfx_arrow_hit";
         public static readonly string SfxAtgeirAttack = "sfx_atgeir_attack";
         public static readonly string SfxAtgeirAttackSecondary = "sfx_atgeir_attack_secondary";
@@ -1048,8 +1071,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string SfxTorchSwing = "sfx_torch_swing";
         public static readonly string SfxTreasurechestDestroyed = "sfx_treasurechest_destroyed";
         public static readonly string SfxTreeFall = "sfx_tree_fall";
+        public static readonly string SfxTreeFallAbomination = "sfx_tree_fall_abomination";
         public static readonly string SfxTreeFallHit = "sfx_tree_fall_hit";
         public static readonly string SfxTreeHit = "sfx_tree_hit";
+        public static readonly string SfxTreeHitAbomination = "sfx_tree_hit_abomination";
         public static readonly string SfxTrollAlerted = "sfx_troll_alerted";
         public static readonly string SfxTrollAttackHit = "sfx_troll_attack_hit";
         public static readonly string SfxTrollAttacking = "sfx_troll_attacking";
@@ -1212,11 +1237,11 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string StoneHenge4 = nameof(StoneHenge4);
         public static readonly string StoneHenge5 = nameof(StoneHenge5);
         public static readonly string StoneHenge6 = nameof(StoneHenge6);
-        public static readonly string StoneHouse1Heath = "StoneHouse1_heath";
-        public static readonly string StoneHouse2Heath = "StoneHouse2_heath";
+        public static readonly string StoneHouse1Heath = "StoneHouse1_heath"; // +
+        public static readonly string StoneHouse2Heath = "StoneHouse2_heath"; // +
         public static readonly string StoneHouse3 = nameof(StoneHouse3);
         public static readonly string StoneHouse4 = nameof(StoneHouse4);
-        public static readonly string StoneHouse5Heath = "StoneHouse5_heath";
+        public static readonly string StoneHouse5Heath = "StoneHouse5_heath"; // +
         public static readonly string StoneTower1 = nameof(StoneTower1);
         public static readonly string StoneTower2 = nameof(StoneTower2);
         public static readonly string StoneTower3 = nameof(StoneTower3);
@@ -1298,6 +1323,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string TrollCave = nameof(TrollCave);
         public static readonly string TrollCave02 = nameof(TrollCave02);
         public static readonly string TrollHide = nameof(TrollHide);
+        public static readonly string TrophyAbomination = nameof(TrophyAbomination);
         public static readonly string TrophyBlob = nameof(TrophyBlob);
         public static readonly string TrophyBoar = nameof(TrophyBoar);
         public static readonly string TrophyBonemass = nameof(TrophyBonemass);
@@ -1340,7 +1366,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string TurnipStew = nameof(TurnipStew);
         public static readonly string Valkyrie = nameof(Valkyrie);
         public static readonly string VegvisirShardBonemass = "VegvisirShard_Bonemass";
-        public static readonly string VendorBlackForest = "Vendor_BlackForest";
+        public static readonly string VendorBlackForest = "Vendor_BlackForest"; // +
         public static readonly string VerticalWeb = "vertical_web";
         public static readonly string VfxArrowhit = "vfx_arrowhit";
         public static readonly string VfxAutoPickup = "vfx_auto_pickup";
@@ -1437,6 +1463,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string VfxFiretreeRegrow = "vfx_firetree_regrow";
         public static readonly string VfxFiretreecut = "vfx_firetreecut";
         public static readonly string VfxFiretreecutDead = "vfx_firetreecut_dead";
+        public static readonly string VfxFiretreecutDeadAbomination = "vfx_firetreecut_dead_abomination";
         public static readonly string VfxFireWorkTest = "vfx_FireWorkTest";
         public static readonly string VfxFirlogdestroyed = "vfx_firlogdestroyed";
         public static readonly string VfxFirlogdestroyedHalf = "vfx_firlogdestroyed_half";
@@ -1557,6 +1584,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string VfxRockHit = "vfx_RockHit";
         public static readonly string VfxRockHitObsidian = "vfx_RockHit_Obsidian";
         public static readonly string VfxSawDust = "vfx_SawDust";
+        public static readonly string VfxSawDustAbomination = "vfx_SawDust_abomination";
         public static readonly string VfxSeagullDeath = "vfx_seagull_death";
         public static readonly string VfxSerpentAttackTrigger = "vfx_serpent_attack_trigger";
         public static readonly string VfxSerpentDeath = "vfx_serpent_death";

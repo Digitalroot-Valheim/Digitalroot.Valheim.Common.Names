@@ -9,8 +9,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
   public static partial class EnemyNames
   {
     [UsedImplicitly] public static readonly IEnumerable<string> AllNames = Utils.AllNames(typeof(EnemyNames));
+    public static readonly string Abomination = PrefabNames.Abomination;
     public static readonly string Blob = PrefabNames.Blob;
     public static readonly string BlobElite = PrefabNames.BlobElite;
+    public static readonly string BlobTar = PrefabNames.BlobTar;
     public static readonly string Boar = PrefabNames.Boar;
     public static readonly string BoarPiggy = PrefabNames.BoarPiggy;
     public static readonly string Crow = PrefabNames.Crow;
@@ -32,10 +34,12 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string Greyling = PrefabNames.Greyling;
     public static readonly string Leech = PrefabNames.Leech;
     public static readonly string Lox = PrefabNames.Lox;
+    public static readonly string LoxCalf = PrefabNames.LoxCalf;
     public static readonly string Neck = PrefabNames.Neck;
     public static readonly string Seagal = PrefabNames.Seagal;
     public static readonly string Serpent = PrefabNames.Serpent;
     public static readonly string Skeleton = PrefabNames.Skeleton;
+    public static readonly string SkeletonNoArcher = PrefabNames.SkeletonNoArcher;
     public static readonly string SkeletonPoison = PrefabNames.SkeletonPoison;
     public static readonly string StoneGolem = PrefabNames.StoneGolem;
     public static readonly string Surtling = PrefabNames.Surtling;
@@ -77,6 +81,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
           break;
 
         case Heightmap.Biome.Swamp:
+          yield return Abomination;
           yield return Blob;
           yield return BlobElite;
           yield return Draugr;
@@ -96,12 +101,14 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
           break;
 
         case Heightmap.Biome.Plains:
+          yield return BlobTar;
           yield return Deathsquito;
           yield return Goblin;
           yield return GoblinArcher;
           yield return GoblinBrute;
           yield return GoblinShaman;
           yield return Lox;
+          yield return LoxCalf;
           break;
 
         case Heightmap.Biome.Ocean:
