@@ -3,6 +3,7 @@ name: NuGet Release
 concurrency: ci-${{ github.ref }}
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ] # Default release branch
     paths:
