@@ -36,8 +36,8 @@ namespace Digitalroot.Valheim.Common.Names.MonsternomiconMod
     public static readonly string PolarFenring = $"{PrefixM}{nameof(PolarFenring)}";
     public static readonly string PolarLox = $"{PrefixM}{nameof(PolarLox)}";
     public static readonly string SilverGolem = $"{PrefixM}{nameof(SilverGolem)}";
-    public static readonly string SmallPolarLox = $"{PrefixM}{nameof(SmallPolarLox)}";
-    public static readonly string SmallPolarSerpent = $"{PrefixM}{nameof(SmallPolarSerpent)}";
+    public static readonly string PolarLoxSmall = $"{PrefixM}{nameof(PolarLoxSmall)}";
+    public static readonly string PolarSerpentSmall = $"{PrefixM}{nameof(PolarSerpentSmall)}";
 
     // Mistlands
     public static readonly string DarkMosquito = $"{PrefixM}{nameof(DarkMosquito)}";

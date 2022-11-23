@@ -28,8 +28,8 @@ namespace Digitalroot.Valheim.Common.Names.MonsternomiconMod
     public static readonly string SilverGolem = PrefabNames.SilverGolem;
     public static readonly string SmallAshNeck = PrefabNames.SmallAshNeck;
     public static readonly string SmallDarkSpider = PrefabNames.SmallDarkSpider;
-    public static readonly string SmallPolarSerpent = PrefabNames.SmallPolarSerpent;
-    public static readonly string SmallPolarLox = PrefabNames.SmallPolarLox;
+    public static readonly string PolarSerpentSmall = PrefabNames.PolarSerpentSmall;
+    public static readonly string PolarLoxSmall = PrefabNames.PolarLoxSmall;
     public static readonly string StormHatchling = PrefabNames.StormHatchling;
     public static readonly string SwollenBody = PrefabNames.SwollenBody;
     public static readonly string StormWolf = PrefabNames.StormWolf;
@@ -52,7 +52,7 @@ namespace Digitalroot.Valheim.Common.Names.MonsternomiconMod
         case Heightmap.Biome.Ocean:
           yield return DrownedSoul;
           yield return StormHatchling;
-          yield return SmallPolarSerpent;
+          yield return PolarSerpentSmall;
           break;
 
         case Heightmap.Biome.Mistlands:
@@ -88,7 +88,7 @@ namespace Digitalroot.Valheim.Common.Names.MonsternomiconMod
           yield return PolarFenring;
           yield return PolarLox;
           yield return SilverGolem;
-          yield return SmallPolarLox;
+          yield return PolarLoxSmall;
           break;
       }
     }
