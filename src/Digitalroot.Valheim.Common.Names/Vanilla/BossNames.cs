@@ -14,6 +14,8 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string Bonemass = PrefabNames.Bonemass;
     public static readonly string Moder = PrefabNames.Dragon;
     public static readonly string Yagluth = PrefabNames.GoblinKing;
+    public static readonly string SeekerQueen = PrefabNames.SeekerQueen;
+    public static readonly string DvergrBoss = PrefabNames.DgDvergrBoss;
 
     public static IEnumerable<string> AllNamesByBiome(Heightmap.Biome biome)
     {
@@ -33,6 +35,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
           break;
         case Heightmap.Biome.Plains:
           yield return Yagluth;
+          break;
+        case Heightmap.Biome.Mistlands:
+          yield return SeekerQueen;
+          yield return DvergrBoss;
           break;
       }
     }

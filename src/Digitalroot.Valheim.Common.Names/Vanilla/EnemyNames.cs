@@ -22,8 +22,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string Draugr = PrefabNames.Draugr;
     public static readonly string DraugrElite = PrefabNames.DraugrElite;
     public static readonly string DraugrRanged = PrefabNames.DraugrRanged;
+    public static readonly string Dverger = PrefabNames.Dverger;
     public static readonly string Fenring = PrefabNames.Fenring;
     public static readonly string Ghost = PrefabNames.Ghost;
+    public static readonly string Gjall = PrefabNames.Gjall;
     public static readonly string Goblin = PrefabNames.Goblin;
     public static readonly string GoblinArcher = PrefabNames.GoblinArcher;
     public static readonly string GoblinBrute = PrefabNames.GoblinBrute;
@@ -32,17 +34,25 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string GreydwarfElite = PrefabNames.GreydwarfElite;
     public static readonly string GreydwarfShaman = PrefabNames.GreydwarfShaman;
     public static readonly string Greyling = PrefabNames.Greyling;
+    public static readonly string Hare = PrefabNames.Hare;
+    public static readonly string Hen = PrefabNames.Hen;
+    public static readonly string Hive = PrefabNames.Hive;
     public static readonly string Leech = PrefabNames.Leech;
     public static readonly string Lox = PrefabNames.Lox;
     public static readonly string LoxCalf = PrefabNames.LoxCalf;
+    public static readonly string Mistile = PrefabNames.Mistile;
     public static readonly string Neck = PrefabNames.Neck;
     public static readonly string Seagal = PrefabNames.Seagal;
+    public static readonly string Seeker = PrefabNames.Seeker;
+    public static readonly string SeekerBrute = PrefabNames.SeekerBrute;
     public static readonly string Serpent = PrefabNames.Serpent;
     public static readonly string Skeleton = PrefabNames.Skeleton;
     public static readonly string SkeletonNoArcher = PrefabNames.SkeletonNoArcher;
     public static readonly string SkeletonPoison = PrefabNames.SkeletonPoison;
     public static readonly string StoneGolem = PrefabNames.StoneGolem;
     public static readonly string Surtling = PrefabNames.Surtling;
+    public static readonly string TheHive = PrefabNames.TheHive;
+    public static readonly string Tick = PrefabNames.Tick;
     public static readonly string Troll = PrefabNames.Troll;
     public static readonly string Wolf = PrefabNames.Wolf;
     public static readonly string WolfCub = PrefabNames.WolfCub;
@@ -113,6 +123,15 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
 
         case Heightmap.Biome.Ocean:
           yield return Serpent;
+          break;
+
+        case Heightmap.Biome.Mistlands:
+          yield return Dverger;
+          yield return Gjall;
+          yield return Hare;
+          yield return Seeker;
+          yield return SeekerBrute;
+          yield return Tick;
           break;
       }
     }
