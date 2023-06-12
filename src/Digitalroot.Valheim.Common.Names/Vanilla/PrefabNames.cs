@@ -598,6 +598,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string FxGuardstonePermittedRemoved = "fx_guardstone_permitted_removed";
         public static readonly string FxHareDeath = "fx_hare_death";
         public static readonly string FxHenDeath = "fx_hen_death";
+        public static readonly string FxHenLove = "fx_hen_love";
         public static readonly string FxHimminaflAoe = "fx_himminafl_aoe";
         public static readonly string FxHimminaflHit = "fx_himminafl_hit";
         public static readonly string FxHottubAddwood = "fx_hottub_addwood";
@@ -657,7 +658,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string FxTrapTrigger = "fx_trap_trigger";
         public static readonly string FxTurretAddammo = "fx_turret_addammo";
         public static readonly string FxTurretFire = "fx_turret_fire";
+        public static readonly string FxTurretNewtarget = "fx_turret_newtarget";
+        public static readonly string FxTurretNotarget = "fx_turret_notarget";
         public static readonly string FxTurretReload = "fx_turret_reload";
+        public static readonly string FxTurretWarmup = "fx_turret_warmup";
         public static readonly string FxVinesHit = "fx_vines_hit";
         public static readonly string FxWaterImpactBig = "fx_WaterImpact_Big";
         public static readonly string FxWolfPet = "fx_wolf_pet";
@@ -715,7 +719,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string GoblinBruteRageAttack = "GoblinBrute_RageAttack";
         public static readonly string GoblinBruteShoulderGuard = "GoblinBrute_ShoulderGuard";
         public static readonly string GoblinBruteTaunt = "GoblinBrute_Taunt";
-        public static readonly string GoblinCamp1 = nameof(GoblinCamp1);
         public static readonly string GoblinCamp2 = nameof(GoblinCamp2);
         public static readonly string GoblinClub = nameof(GoblinClub);
         public static readonly string GoblinHelmet = nameof(GoblinHelmet);
@@ -743,8 +746,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string Grave1 = nameof(Grave1);
         public static readonly string Greydwarf = nameof(Greydwarf);
         public static readonly string GreydwarfCamp1 = "Greydwarf_camp1";
-        public static readonly string GreydwarfCamp2 = "Greydwarf_camp2";
-        public static readonly string GreydwarfCamp3 = "Greydwarf_camp3";
         public static readonly string GreydwarfElite = "Greydwarf_Elite";
         public static readonly string GreydwarfEliteRagdoll = "Greydwarf_elite_ragdoll";
         public static readonly string GreydwarfRagdoll = "Greydwarf_ragdoll";
@@ -780,6 +781,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string HelmetDrake = nameof(HelmetDrake);
         public static readonly string HelmetDverger = nameof(HelmetDverger);
         public static readonly string HelmetFenring = nameof(HelmetFenring);
+        public static readonly string HelmetFishingHat = nameof(HelmetFishingHat);
         public static readonly string HelmetIron = nameof(HelmetIron);
         public static readonly string HelmetLeather = nameof(HelmetLeather);
         public static readonly string HelmetMage = nameof(HelmetMage);
@@ -800,7 +802,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string HoneyGlazedChickenUncooked = nameof(HoneyGlazedChickenUncooked);
         public static readonly string HorizontalWeb = "horizontal_web";
         public static readonly string HugeRoot1 = nameof(HugeRoot1);
-        public static readonly string Hugintest = nameof(Hugintest);
         public static readonly string IceFloor = "Ice_floor";
         public static readonly string IceFloorFractured = "Ice_floor_fractured";
         public static readonly string IceRock1 = "ice_rock1";
@@ -931,7 +932,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string MistlandsViaduct1 = "Mistlands_Viaduct1";
         public static readonly string MistlandsViaduct2 = "Mistlands_Viaduct2";
         public static readonly string Mistvolume = "mistvolume";
-        public static readonly string MountainCave01 = nameof(MountainCave01);
         public static readonly string MountainCave02 = nameof(MountainCave02);
         public static readonly string MountainGrave01 = nameof(MountainGrave01);
         public static readonly string MountainGraveStone01 = nameof(MountainGraveStone01);
@@ -1093,6 +1093,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string PieceGroundtorchGreen = "piece_groundtorch_green";
         public static readonly string PieceGroundtorchMist = "piece_groundtorch_mist";
         public static readonly string PieceGroundtorchWood = "piece_groundtorch_wood";
+        public static readonly string PieceHexagonalDoor = "piece_hexagonal_door";
         public static readonly string PieceJackoturnip = "piece_jackoturnip";
         public static readonly string PieceLogbench01 = "piece_logbench01";
         public static readonly string PieceMagetable = "piece_magetable";
@@ -1121,8 +1122,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string PieceXmascrown = "piece_xmascrown";
         public static readonly string PieceXmasgarland = "piece_xmasgarland";
         public static readonly string PieceXmastree = "piece_xmastree";
-        public static readonly string Pillar1 = nameof(Pillar1);
-        public static readonly string Pillar2 = nameof(Pillar2);
         public static readonly string PineCone = nameof(PineCone);
         public static readonly string PineTree = nameof(PineTree);
         public static readonly string Pinetree01 = "Pinetree_01";
@@ -1770,7 +1769,9 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string SpawnerLocationGreydwarf = "Spawner_Location_Greydwarf";
         public static readonly string SpawnerLocationShaman = "Spawner_Location_Shaman";
         public static readonly string SpawnerSeeker = "Spawner_Seeker";
+        public static readonly string SpawnerSeekerRespawn240 = "Spawner_Seeker_respawn_240";
         public static readonly string SpawnerSeekerBrute = "Spawner_SeekerBrute";
+        public static readonly string SpawnerSeekerBruteRespawn240 = "Spawner_SeekerBrute_respawn_240";
         public static readonly string SpawnerSkeleton = "Spawner_Skeleton";
         public static readonly string SpawnerSkeletonNightNoarcher = "Spawner_Skeleton_night_noarcher";
         public static readonly string SpawnerSkeletonPoison = "Spawner_Skeleton_poison";
@@ -1778,6 +1779,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string SpawnerStoneGolem = "Spawner_StoneGolem";
         public static readonly string SpawnerTick = "Spawner_Tick";
         public static readonly string SpawnerTickStared = "Spawner_Tick_stared";
+        public static readonly string SpawnerTickStaredRespawn240 = "Spawner_Tick_stared_respawn_240";
         public static readonly string SpawnerTroll = "Spawner_Troll";
         public static readonly string SpawnerUlv = "Spawner_Ulv";
         public static readonly string SpawnerWraith = "Spawner_Wraith";
@@ -1836,9 +1838,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string StoneHouse4 = nameof(StoneHouse4);
         public static readonly string StoneHouse5Heath = "StoneHouse5_heath";
         public static readonly string StoneTower1 = nameof(StoneTower1);
-        public static readonly string StoneTower2 = nameof(StoneTower2);
         public static readonly string StoneTower3 = nameof(StoneTower3);
-        public static readonly string StoneTower4 = nameof(StoneTower4);
         public static readonly string StoneTowerRuins03 = nameof(StoneTowerRuins03);
         public static readonly string StoneTowerRuins04 = nameof(StoneTowerRuins04);
         public static readonly string StoneTowerRuins05 = nameof(StoneTowerRuins05);
@@ -1849,9 +1849,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string Stubbe = "stubbe";
         public static readonly string StubbeSpawner = "stubbe_spawner";
         public static readonly string SunkenCryptGate = "sunken_crypt_gate";
-        public static readonly string SunkenCrypt1 = nameof(SunkenCrypt1);
-        public static readonly string SunkenCrypt2 = nameof(SunkenCrypt2);
-        public static readonly string SunkenCrypt3 = nameof(SunkenCrypt3);
         public static readonly string SunkenCrypt4 = nameof(SunkenCrypt4);
         public static readonly string Surtling = nameof(Surtling);
         public static readonly string SurtlingCore = nameof(SurtlingCore);
@@ -1927,7 +1924,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
         public static readonly string TrollLogSwingV = "troll_log_swing_v";
         public static readonly string TrollRagdoll = "Troll_ragdoll";
         public static readonly string TrollThrowProjectile = "troll_throw_projectile";
-        public static readonly string TrollCave = nameof(TrollCave);
         public static readonly string TrollCave02 = nameof(TrollCave02);
         public static readonly string TrollHide = nameof(TrollHide);
         public static readonly string TrophyAbomination = nameof(TrophyAbomination);
