@@ -15,9 +15,6 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string DrakeNest01 = PrefabNames.DrakeNest01;
     public static readonly string FireHole = PrefabNames.FireHole;
     public static readonly string GreydwarfCamp1 = PrefabNames.GreydwarfCamp1;
-    public static readonly string GreydwarfCamp2 = PrefabNames.GreydwarfCamp2;
-    public static readonly string GreydwarfCamp3 = PrefabNames.GreydwarfCamp3;
-    public static readonly string MountainCave01 = PrefabNames.MountainCave01;
     public static readonly string MountainGrave01 = PrefabNames.MountainGrave01;
     public static readonly string Ruin1 = PrefabNames.Ruin1;
     public static readonly string Ruin2 = PrefabNames.Ruin2;
@@ -37,9 +34,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string StoneHouse3 = PrefabNames.StoneHouse3;
     public static readonly string StoneHouse4 = PrefabNames.StoneHouse4;
     public static readonly string StoneTower1 = PrefabNames.StoneTower1;
-    public static readonly string StoneTower2 = PrefabNames.StoneTower2;
     public static readonly string StoneTower3 = PrefabNames.StoneTower3;
-    public static readonly string StoneTower4 = PrefabNames.StoneTower4;
     public static readonly string StoneTowerRuins03 = PrefabNames.StoneTowerRuins03;
     public static readonly string StoneTowerRuins04 = PrefabNames.StoneTowerRuins04;
     public static readonly string StoneTowerRuins05 = PrefabNames.StoneTowerRuins05;
