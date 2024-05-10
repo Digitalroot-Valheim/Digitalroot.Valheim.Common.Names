@@ -40,7 +40,7 @@
     <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.218.14">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.56" />
+    <PackageReference Include="Digitalroot.Valheim.Common.Utils" Version="1.0.58" />
   </ItemGroup>
 
   <ItemGroup>
