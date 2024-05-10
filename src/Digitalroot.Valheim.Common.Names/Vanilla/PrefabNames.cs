@@ -903,6 +903,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string InfestedTree01 = nameof(InfestedTree01);
     public static readonly string Iron = nameof(Iron);
     public static readonly string IronFloor1X1 = "iron_floor_1x1";
+    public static readonly string IronFloor1X1V2 = "iron_floor_1x1_v2";
     public static readonly string IronFloor2X2 = "iron_floor_2x2";
     public static readonly string IronGrate = "iron_grate";
     public static readonly string IronWall1X1 = "iron_wall_1x1";
