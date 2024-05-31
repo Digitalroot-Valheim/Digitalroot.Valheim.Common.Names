@@ -15,6 +15,8 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string Moder = PrefabNames.Dragon;
     public static readonly string Yagluth = PrefabNames.GoblinKing;
     public static readonly string SeekerQueen = PrefabNames.SeekerQueen;
+    public static readonly string DragonQueen = PrefabNames.Dragonqueen;
+    public static readonly string Fader = PrefabNames.Fader; // Boss??
 
     public static IEnumerable<string> AllNamesByBiome(Heightmap.Biome biome)
     {
