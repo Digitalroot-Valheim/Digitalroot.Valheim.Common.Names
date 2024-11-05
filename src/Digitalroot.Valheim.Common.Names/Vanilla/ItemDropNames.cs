@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+
 // ReSharper disable IdentifierTypo
 
 namespace Digitalroot.Valheim.Common.Names.Vanilla
@@ -28,6 +29,8 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string ArmorFenringLegs = PrefabNames.ArmorFenringLegs;
     public static string ArmorFlametalChest = PrefabNames.ArmorFlametalChest;
     public static string ArmorFlametalLegs = PrefabNames.ArmorFlametalLegs;
+    public static string ArmorHarvester1 = PrefabNames.ArmorHarvester1;
+    public static string ArmorHarvester2 = PrefabNames.ArmorHarvester2;
     public static string ArmorAshlandsMediumChest = PrefabNames.ArmorAshlandsMediumChest;
     public static string ArmorAshlandsMediumlegs = PrefabNames.ArmorAshlandsMediumlegs;
     public static string ArmorBronzeChest = PrefabNames.ArmorBronzeChest;
@@ -86,6 +89,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string BarleyFlour = PrefabNames.BarleyFlour;
     public static string BarleyWine = PrefabNames.BarleyWine;
     public static string BarleyWineBase = PrefabNames.BarleyWineBase;
+    public static string BarrelRings = PrefabNames.BarrelRings;
     public static string Battleaxe = PrefabNames.Battleaxe;
     public static string BattleaxeCrystal = PrefabNames.BattleaxeCrystal;
     public static string BeechSeeds = PrefabNames.BeechSeeds;
@@ -132,6 +136,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string BronzeNails = PrefabNames.BronzeNails;
     public static string BronzeScrap = PrefabNames.BronzeScrap;
     public static string BugMeat = PrefabNames.BugMeat;
+    public static string CandleWick = PrefabNames.CandleWick;
     public static string CapeAsh = PrefabNames.CapeAsh;
     public static string CapeAsksvin = PrefabNames.CapeAsksvin;
     public static string CapeDeerHide = PrefabNames.CapeDeerHide;
@@ -186,6 +191,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string CryptKey = PrefabNames.CryptKey;
     public static string Crystal = PrefabNames.Crystal;
     public static string Cultivator = PrefabNames.Cultivator;
+    public static string CuredSquirrelHamstring = PrefabNames.CuredSquirrelHamstring;
     public static string Dandelion = PrefabNames.Dandelion;
     public static string DeerHide = PrefabNames.DeerHide;
     public static string DeerMeat = PrefabNames.DeerMeat;
@@ -214,6 +220,15 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string Entrails = PrefabNames.Entrails;
     public static string Eyescream = PrefabNames.Eyescream;
     public static string FaderDrop = PrefabNames.FaderDrop;
+    public static string FeastAshlandsMaterial = PrefabNames.FeastAshlandsMaterial;
+    public static string FeastBlackforestMaterial = PrefabNames.FeastBlackforestMaterial;
+    public static string Feaster = PrefabNames.Feaster;
+    public static string FeastMeadowsMaterial = PrefabNames.FeastMeadowsMaterial;
+    public static string FeastMistlandsMaterial = PrefabNames.FeastMistlandsMaterial;
+    public static string FeastMountainsMaterial = PrefabNames.FeastMountainsMaterial;
+    public static string FeastOceansMaterial = PrefabNames.FeastOceansMaterial;
+    public static string FeastPlainsMaterial = PrefabNames.FeastPlainsMaterial;
+    public static string FeastSwampsMaterial = PrefabNames.FeastSwampsMaterial;
     public static string Feathers = PrefabNames.Feathers;
     public static string FineWood = PrefabNames.FineWood;
     public static string FirCone = PrefabNames.FirCone;
@@ -240,7 +255,9 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string FlametalOreNew = PrefabNames.FlametalOreNew;
     public static string Flax = PrefabNames.Flax;
     public static string Flint = PrefabNames.Flint;
+    public static string FragrantBundle = PrefabNames.FragrantBundle;
     public static string FreezeGland = PrefabNames.FreezeGland;
+    public static string FreshSeaweed = PrefabNames.FreshSeaweed;
     public static string GemstoneBlue = PrefabNames.GemstoneBlue;
     public static string GemstoneGreen = PrefabNames.GemstoneGreen;
     public static string GemstoneRed = PrefabNames.GemstoneRed;
@@ -323,30 +340,53 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string Mandible = PrefabNames.Mandible;
     public static string MarinatedGreens = PrefabNames.MarinatedGreens;
     public static string MashedMeat = PrefabNames.MashedMeat;
+
+    #region MeadBase
+
+    public static string MeadBaseBugRepellent = PrefabNames.MeadBaseBugRepellent;
+    public static string MeadBaseBzerker = PrefabNames.MeadBaseBzerker;
     public static string MeadBaseEitrLingering = PrefabNames.MeadBaseEitrLingering;
     public static string MeadBaseEitrMinor = PrefabNames.MeadBaseEitrMinor;
     public static string MeadBaseFrostResist = PrefabNames.MeadBaseFrostResist;
+    public static string MeadBaseHasty = PrefabNames.MeadBaseHasty;
     public static string MeadBaseHealthLingering = PrefabNames.MeadBaseHealthLingering;
     public static string MeadBaseHealthMajor = PrefabNames.MeadBaseHealthMajor;
     public static string MeadBaseHealthMedium = PrefabNames.MeadBaseHealthMedium;
     public static string MeadBaseHealthMinor = PrefabNames.MeadBaseHealthMinor;
+    public static string MeadBaseLightFoot = PrefabNames.MeadBaseLightFoot;
     public static string MeadBasePoisonResist = PrefabNames.MeadBasePoisonResist;
     public static string MeadBaseStaminaLingering = PrefabNames.MeadBaseStaminaLingering;
     public static string MeadBaseStaminaMedium = PrefabNames.MeadBaseStaminaMedium;
     public static string MeadBaseStaminaMinor = PrefabNames.MeadBaseStaminaMinor;
+    public static string MeadBaseStrength = PrefabNames.MeadBaseStrength;
+    public static string MeadBaseSwimmer = PrefabNames.MeadBaseSwimmer;
+    public static string MeadBaseTamer = PrefabNames.MeadBaseTamer;
     public static string MeadBaseTasty = PrefabNames.MeadBaseTasty;
+
+    #endregion
+
+    #region Meads
+
+    public static string MeadBugRepellent = PrefabNames.MeadBugRepellent;
+    public static string MeadBzerker = PrefabNames.MeadBzerker;
     public static string MeadEitrLingering = PrefabNames.MeadEitrLingering;
     public static string MeadEitrMinor = PrefabNames.MeadEitrMinor;
     public static string MeadFrostResist = PrefabNames.MeadFrostResist;
+    public static string MeadHasty = PrefabNames.MeadHasty;
     public static string MeadHealthLingering = PrefabNames.MeadHealthLingering;
     public static string MeadHealthMajor = PrefabNames.MeadHealthMajor;
     public static string MeadHealthMedium = PrefabNames.MeadHealthMedium;
     public static string MeadHealthMinor = PrefabNames.MeadHealthMinor;
+    public static string MeadLightfoot = PrefabNames.MeadLightfoot;
     public static string MeadPoisonResist = PrefabNames.MeadPoisonResist;
     public static string MeadStaminaLingering = PrefabNames.MeadStaminaLingering;
     public static string MeadStaminaMedium = PrefabNames.MeadStaminaMedium;
     public static string MeadStaminaMinor = PrefabNames.MeadStaminaMinor;
     public static string MeadTasty = PrefabNames.MeadTasty;
+    public static string MeadTrollPheromones = PrefabNames.MeadTrollPheromones;
+
+    #endregion
+
     public static string MeatPlatter = PrefabNames.MeatPlatter;
     public static string MeatPlatterUncooked = PrefabNames.MeatPlatterUncooked;
     public static string MechanicalSpring = PrefabNames.MechanicalSpring;
@@ -358,6 +398,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string MorgenHeart = PrefabNames.MorgenHeart;
     public static string Mushroom = PrefabNames.Mushroom;
     public static string MushroomBlue = PrefabNames.MushroomBlue;
+    public static string MushroomBzerker = PrefabNames.MushroomBzerker;
     public static string MushroomJotunPuffs = PrefabNames.MushroomJotunPuffs;
     public static string MushroomMagecap = PrefabNames.MushroomMagecap;
     public static string MushroomOmelette = PrefabNames.MushroomOmelette;
@@ -384,8 +425,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string PlaceofMystery3 = PrefabNames.PlaceofMystery3;
     public static string PotShardGreen = PrefabNames.PotShardGreen;
     public static string PotShardRed = PrefabNames.PotShardRed;
+    public static string PowderedDragonEgg = PrefabNames.PowderedDragonEgg;
     public static string ProustitePowder = PrefabNames.ProustitePowder;
     public static string PukeBerries = PrefabNames.Pukeberries;
+    public static string PungentPebbles = PrefabNames.PungentPebbles;
     public static string QueenBee = PrefabNames.QueenBee;
     public static string QueenDrop = PrefabNames.QueenDrop;
     public static string QueensJam = PrefabNames.QueensJam;
@@ -404,6 +447,8 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string Sausages = PrefabNames.Sausages;
     public static string ScaleHide = PrefabNames.ScaleHide;
     public static string ScorchingMedley = PrefabNames.ScorchingMedley;
+    public static string Scythe = PrefabNames.Scythe;
+    public static string ScytheHandle = PrefabNames.ScytheHandle;
     public static string SerpentMeat = PrefabNames.SerpentMeat;
     public static string SerpentMeatCooked = PrefabNames.SerpentMeatCooked;
     public static string SerpentScale = PrefabNames.SerpentScale;
@@ -447,6 +492,12 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string SpearSplitnerLightning = PrefabNames.SpearSplitnerLightning;
     public static string SpearSplitnerNature = PrefabNames.SpearSplitnerNature;
     public static string SpearWolfFang = PrefabNames.SpearWolfFang;
+    public static string SpiceAshlands = PrefabNames.SpiceAshlands;
+    public static string SpiceForests = PrefabNames.SpiceForests;
+    public static string SpiceMistlands = PrefabNames.SpiceMistlands;
+    public static string SpiceMountains = PrefabNames.SpiceMountains;
+    public static string SpiceOceans = PrefabNames.SpiceOceans;
+    public static string SpicePlains = PrefabNames.SpicePlains;
     public static string SpicyMarmalade = PrefabNames.SpicyMarmalade;
     public static string StaffClusterbomb = PrefabNames.StaffClusterbomb;
     public static string StaffFireball = PrefabNames.StaffFireball;
@@ -531,6 +582,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static string TrophyGrowth = PrefabNames.TrophyGrowth;
     public static string TrophyHare = PrefabNames.TrophyHare;
     public static string TrophyHatchling = PrefabNames.TrophyHatchling;
+    public static string TrophyKvastur = PrefabNames.TrophyKvastur;
     public static string TrophyLeech = PrefabNames.TrophyLeech;
     public static string TrophyLox = PrefabNames.TrophyLox;
     public static string TrophyMorgen = PrefabNames.TrophyMorgen;

@@ -11,6 +11,7 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string AbandonedLogCabin03 = PrefabNames.AbandonedLogCabin03;
     public static readonly string AbandonedLogCabin04 = PrefabNames.AbandonedLogCabin04;
     public static readonly string AshlandRuins = PrefabNames.AshlandRuins;
+    public static readonly string BogWitchCamp = PrefabNames.BogWitchCamp;
     public static readonly string CharredFortress = PrefabNames.CharredFortress;
     public static readonly string CharredTowerRuins1 = PrefabNames.CharredTowerRuins1;
     public static readonly string CharredTowerRuins1Dvergr = PrefabNames.CharredTowerRuins1Dvergr;
@@ -20,9 +21,13 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string CharredRuins2 = PrefabNames.CharredRuins2;
     public static readonly string CharredRuins3 = PrefabNames.CharredRuins3;
     public static readonly string CharredRuins4 = PrefabNames.CharredRuins4;
+    public static readonly string DevDressingRoom = PrefabNames.DevDressingRoom;
     public static readonly string DevHouse1 = PrefabNames.DevHouse1;
     public static readonly string DevHouse2 = PrefabNames.DevHouse2;
     public static readonly string DevHouse3 = PrefabNames.DevHouse3;
+    public static readonly string DevHouse4 = PrefabNames.DevHouse4;
+    public static readonly string DevHouse5 = PrefabNames.DevHouse5;
+    public static readonly string DevKitchen = PrefabNames.DevKitchen;
     public static readonly string DgCave = PrefabNames.DgCave;
     public static readonly string DgDvergrBoss = PrefabNames.DgDvergrBoss;
     public static readonly string DgAshlandRuins = PrefabNames.DgAshlandRuins;
