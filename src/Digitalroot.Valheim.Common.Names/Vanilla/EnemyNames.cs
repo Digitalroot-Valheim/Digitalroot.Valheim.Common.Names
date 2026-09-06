@@ -18,8 +18,10 @@ namespace Digitalroot.Valheim.Common.Names.Vanilla
     public static readonly string Bat = PrefabNames.Bat;
     public static readonly string Blob = PrefabNames.Blob;
     public static readonly string BlobElite = PrefabNames.BlobElite;
+    public static readonly string BlobFrost = PrefabNames.BlobFrost;
     public static readonly string BlobLava = PrefabNames.BlobLava;
     public static readonly string BlobTar = PrefabNames.BlobTar;
+    public static readonly string BlobVial = PrefabNames.BlobVial;
     public static readonly string Boar = PrefabNames.Boar;
     public static readonly string BoarPiggy = PrefabNames.BoarPiggy;
     public static readonly string BonemawSerpent = PrefabNames.BonemawSerpent;
