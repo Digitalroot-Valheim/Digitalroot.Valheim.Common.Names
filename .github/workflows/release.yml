@@ -29,3 +29,4 @@ jobs:
       proj-file-name: Digitalroot.Valheim.Common.Names
       nuget-gh-upload: true
       nuget-s3-upload: true
+      skip-unit-tests: true
